@@ -10,10 +10,11 @@ i{
 }
 .container1{
     padding: 0px 200px 0px 200px;
+    background-color:#2F1A2D;
 }
 /*header styliong starts*/
 header,.login-bar{
-    background: black;
+    background:#2F1A2D;
 }
 .header-image{
     display: inline-block; 
@@ -46,7 +47,7 @@ header,.login-bar{
 }
 .login-bar{
     width: 100%;
-    background: black;
+    background:#2F1A2D;
     color: white;
 }
 #login-signup i{
@@ -66,7 +67,10 @@ header,.login-bar{
     text-decoration: underline;
 }
 /*header styling ends here*/
-.mySlides1, .mySlides2 {display: none}
+.mySlides1, .mySlides2 {
+    display: none;
+    border: 1px solid #2F1A2e;
+}
 img {vertical-align: middle;}
 /* Slideshow container */
 .slideshow-container {
@@ -99,7 +103,7 @@ img {vertical-align: middle;}
 
 /* On hover, add a grey background color */
 .prev:hover, .next:hover {
-  background-color: #f1f1f1;
+  background-color: #2F1A2D;
   color: black;
 }
 /*footer styling starts here*/
@@ -107,7 +111,7 @@ footer{
     margin:0;
     padding: 0;
     color: white;
-    background: black;
+    background: #2F1A2D;
 }
 footer h2{
     padding: 10px 0px 0px 20px; 
@@ -134,7 +138,7 @@ footer h2{
     float: right;
 }
 .subscribe button:hover{
-    background: red;
+    background:#2F1A2D;
     color: white;
 }
 .list1 ul{
